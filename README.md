@@ -46,9 +46,11 @@ git push origin main
 After Setup - Normal Git Workflow:
 Once Git LFS is configured, you use Git exactly as normal:
 
+```
 git add .
 git commit -m "your message"
 git push origin main
+```
 
 Large files matching your LFS patterns will be automatically stored in Git LFS instead of the regular Git repository, but the commands remain the same!
 
